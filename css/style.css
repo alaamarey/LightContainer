@@ -1,0 +1,62 @@
+body {
+  cursor: url(../Images/cursor.png) , auto ;
+}
+
+
+.items {
+  position: relative;
+}
+
+.items img {
+  height: 400px;
+cursor: pointer;
+}
+
+.item-info {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  width: 85%;
+  margin: auto;
+}
+
+/* light Container */
+
+.light-container {
+  background-color: rgba(0 0 0 / 0.7);
+  position: fixed ;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-item {
+  position: relative;
+  background-image: url("../Images/1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+i {
+  padding: 10px;
+  color: midnightblue;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.light-item #close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
